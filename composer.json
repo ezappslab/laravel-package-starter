@@ -1,0 +1,20 @@
+{
+    "name": "ezappslab/example",
+    "description": "Laravel package starter pack",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Infinity\\Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Radoslav Boydev"
+        }
+    ],
+    "require": {
+        "spatie/laravel-package-tools": "^1.16"
+    }
+}
