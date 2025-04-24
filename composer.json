@@ -29,7 +29,11 @@
         "orchestra/testbench": "^10.2",
         "orchestra/pest-plugin-testbench": "^3.2",
         "larastan/larastan": "^3.0",
-        "laravel/pint": "^1.22"
+        "laravel/pint": "^1.22",
+        "pestphp/pest": "^3.8",
+        "pestphp/pest-plugin": "^3.0",
+        "pestphp/pest-plugin-arch": "^3.1",
+        "pestphp/pest-plugin-mutate": "^3.0"
     },
     "scripts": {
         "post-autoload-dump": [
