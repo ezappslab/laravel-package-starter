@@ -26,7 +26,7 @@ The starter kit comes with several tools aimed at improving code quality, testin
 - **[pestphp/pest](https://pestphp.com):**  
   A modern testing framework for PHP. Provides an expressive syntax and beautiful reporting for writing and running tests.
 
-- **[pestphp/pest-plugin](https://github.com/pestphp/pest-plugin):**
+- **[pestphp/pest-plugin](https://github.com/pestphp/pest-plugin):**  
   Core plugin framework for building custom PestPHP plugins and extending test functionality.
 
 - **[pestphp/pest-plugin-laravel](https://github.com/pestphp/pest-plugin-laravel):**  
