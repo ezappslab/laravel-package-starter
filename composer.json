@@ -1,8 +1,8 @@
 {
     "name": "ezappslab/example",
-    "description": "Laravel package starter kit",
+    "description": "Laravel package boilerplate",
     "type": "library",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
