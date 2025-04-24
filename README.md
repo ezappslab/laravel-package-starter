@@ -26,5 +26,15 @@ The starter kit comes with several tools aimed at improving code quality, testin
 - **[pestphp/pest](https://pestphp.com):**  
   A modern testing framework for PHP. Provides an expressive syntax and beautiful reporting for writing and running tests.
 
+- **[pestphp/pest-plugin](https://github.com/pestphp/pest-plugin):**
+- Core plugin framework for building custom PestPHP plugins and extending test functionality.
+
 - **[pestphp/pest-plugin-laravel](https://github.com/pestphp/pest-plugin-laravel):**  
-  A Laravel-specific Pest plugin that adds utilities to enhance package testing within the Laravel ecosystem.
+  Enhances Pest with Laravel-specific testing features, simplifying package and application testing.
+
+- **[pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch):**  
+  Provides architecture testing tools for enforcing structural rules within your Laravel codebase.
+
+- **[pestphp/pest-plugin-mutate](https://github.com/pestphp/pest-plugin-mutate):**
+  Enables mutation testing with Pest to evaluate test suite effectiveness and catch weak spots.
+

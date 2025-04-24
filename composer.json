@@ -33,7 +33,8 @@
         "pestphp/pest": "^3.8",
         "pestphp/pest-plugin": "^3.0",
         "pestphp/pest-plugin-arch": "^3.1",
-        "pestphp/pest-plugin-mutate": "^3.0"
+        "pestphp/pest-plugin-mutate": "^3.0",
+        "pestphp/pest-plugin-laravel": "^3.2"
     },
     "scripts": {
         "post-autoload-dump": [
