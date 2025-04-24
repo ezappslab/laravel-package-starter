@@ -35,6 +35,6 @@ The starter kit comes with several tools aimed at improving code quality, testin
 - **[pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch):**  
   Provides architecture testing tools for enforcing structural rules within your Laravel codebase.
 
-- **[pestphp/pest-plugin-mutate](https://github.com/pestphp/pest-plugin-mutate):**
+- **[pestphp/pest-plugin-mutate](https://github.com/pestphp/pest-plugin-mutate):**  
   Enables mutation testing with Pest to evaluate test suite effectiveness and catch weak spots.
 
