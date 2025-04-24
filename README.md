@@ -12,29 +12,29 @@ This package is a robust skeleton starter kit designed to simplify the creation 
 The starter kit comes with several tools aimed at improving code quality, testing, and development experience:
 
 - **[larastan/larastan](https://github.com/nunomaduro/larastan):**  
-  A static analysis tool for Laravel built on PHPStan. It helps identify potential bugs and enforces strict typing in your code.
+  Static analysis for Laravel using PHPStan, helping catch bugs and enforce strong typing.
 
 - **[laravel/pint](https://github.com/laravel/pint):**  
-  A zero-configuration code style fixer for PHP projects. Ensures your code adheres to Laravel's coding standards.
+  Opinionated code style fixer that enforces Laravel’s coding standards with zero configuration.
 
 - **[orchestra/pest-plugin-testbench](https://github.com/orchestral/testbench):**  
-  A Pest plugin for testing Laravel packages. Simplifies the testing process in the Laravel ecosystem.
+  Pest plugin for Testbench, tailored for efficient Laravel package testing.
 
 - **[orchestra/testbench](https://github.com/orchestral/testbench):**  
-  A testing environment for Laravel packages. Helps simulate a Laravel application for running tests.
+  Simulates a Laravel app to test packages outside a full Laravel project.
 
 - **[pestphp/pest](https://pestphp.com):**  
-  A modern testing framework for PHP. Provides an expressive syntax and beautiful reporting for writing and running tests.
+  Elegant and expressive PHP testing framework with a focus on simplicity and readability.
 
 - **[pestphp/pest-plugin](https://github.com/pestphp/pest-plugin):**  
-  Core plugin framework for building custom PestPHP plugins and extending test functionality.
+  Core framework for building and extending custom PestPHP plugins.
 
 - **[pestphp/pest-plugin-laravel](https://github.com/pestphp/pest-plugin-laravel):**  
-  Enhances Pest with Laravel-specific testing features, simplifying package and application testing.
+  Laravel integration plugin for Pest, adding tailored helpers and test features.
 
 - **[pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch):**  
-  Provides architecture testing tools for enforcing structural rules within your Laravel codebase.
+  Architecture testing plugin for enforcing structural rules in Laravel projects.
 
 - **[pestphp/pest-plugin-mutate](https://github.com/pestphp/pest-plugin-mutate):**  
-  Enables mutation testing with Pest to evaluate test suite effectiveness and catch weak spots.
+  Mutation testing plugin to assess and strengthen test coverage in Pest.
 
