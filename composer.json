@@ -27,7 +27,8 @@
     },
     "require-dev": {
         "orchestra/testbench": "^10.2",
-        "orchestra/pest-plugin-testbench": "^3.2"
+        "orchestra/pest-plugin-testbench": "^3.2",
+        "larastan/larastan": "^3.0"
     },
     "scripts": {
         "post-autoload-dump": [
@@ -41,6 +42,9 @@
             "Composer\\Config::disableProcessTimeout",
             "@build",
             "@php vendor/bin/testbench serve --ansi"
+        ],
+        "lint": [
+            "@php vendor/bin/phpstan analyse --verbose --ansi"
         ],
         "test": "@php vendor/bin/pest"
     },
