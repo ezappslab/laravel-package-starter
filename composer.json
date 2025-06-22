@@ -26,9 +26,9 @@
         "spatie/laravel-package-tools": "^1.92"
     },
     "require-dev": {
-        "orchestra/testbench": "^10.3",
+        "orchestra/testbench": "^v10.4",
         "orchestra/pest-plugin-testbench": "^3.2",
-        "larastan/larastan": "^3.4",
+        "larastan/larastan": "^v3.5",
         "laravel/pint": "^1.22",
         "pestphp/pest": "^3.8",
         "pestphp/pest-plugin": "^3.0",
