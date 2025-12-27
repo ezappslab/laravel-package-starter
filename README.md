@@ -1,40 +1,35 @@
-# Skeleton Starter Kit
+# Laravel Package Starter
 
-This package is a robust skeleton starter kit designed to simplify the creation of new Laravel packages. It provides a foundation with pre-configured tools and best practices to help you focus on building your package functionality efficiently.
+This is a robust skeleton starter kit designed to simplify the creation of new Laravel packages. It provides a foundation with pre-configured tools and best practices to help you focus on building your package functionality efficiently.
 
-## Included Tools and Dependencies
+## Getting Started
 
-### Production Dependencies
-- **[spatie/laravel-package-tools](https://github.com/spatie/laravel-package-tools):**  
-  A utility package by Spatie to streamline common tasks in Laravel package development, such as registering config files, routes, and migrations.
+To bootstrap your package development, you can use the following prompt snippet with your favorite AI assistant:
 
-### Development Dependencies
-The starter kit comes with several tools aimed at improving code quality, testing, and development experience:
+```text
+Rename all example code in this Laravel package starter to match:
+Vendor: {{ vendor }}
+Package: {{ package-name }}
+Namespace: {{ Vendor\PackageName }}
 
-- **[larastan/larastan](https://github.com/nunomaduro/larastan):**  
-  Static analysis for Laravel using PHPStan, helping catch bugs and enforce strong typing.
+Remove placeholders and leave a clean, working package.
+```
 
-- **[laravel/pint](https://github.com/laravel/pint):**  
-  Opinionated code style fixer that enforces Laravel’s coding standards with zero configuration.
+## Features
 
-- **[orchestra/pest-plugin-testbench](https://github.com/orchestral/testbench):**  
-  Pest plugin for Testbench, tailored for efficient Laravel package testing.
+- **[spatie/laravel-package-tools](https://github.com/spatie/laravel-package-tools):** Streamlines common tasks in Laravel package development.
+- **[Pest](https://pestphp.com):** Elegant and expressive PHP testing framework.
+- **[PHPStan](https://github.com/phpstan/phpstan) / [Larastan](https://github.com/nunomaduro/larastan):** Static analysis for catching bugs and enforcing strong typing.
+- **[Laravel Pint](https://github.com/laravel/pint):** Opinionated code style fixer.
+- **[Orchestra Testbench](https://github.com/orchestral/testbench):** Simulates a Laravel app for package testing.
 
-- **[orchestra/testbench](https://github.com/orchestral/testbench):**  
-  Simulates a Laravel app to test packages outside a full Laravel project.
+## Scripts
 
-- **[pestphp/pest](https://pestphp.com):**  
-  Elegant and expressive PHP testing framework with a focus on simplicity and readability.
+- `composer lint`: Run Pint and PHPStan.
+- `composer test`: Run Pest tests.
+- `composer build`: Build workbench assets.
+- `composer serve`: Serve the workbench application.
 
-- **[pestphp/pest-plugin](https://github.com/pestphp/pest-plugin):**  
-  Core framework for building and extending custom PestPHP plugins.
+## Documentation
 
-- **[pestphp/pest-plugin-laravel](https://github.com/pestphp/pest-plugin-laravel):**  
-  Laravel integration plugin for Pest, adding tailored helpers and test features.
-
-- **[pestphp/pest-plugin-arch](https://github.com/pestphp/pest-plugin-arch):**  
-  Architecture testing plugin for enforcing structural rules in Laravel projects.
-
-- **[pestphp/pest-plugin-mutate](https://github.com/pestphp/pest-plugin-mutate):**  
-  Mutation testing plugin to assess and strengthen test coverage in Pest.
-
+For more detailed information about the included tools, see [docs/tooling.md](docs/tooling.md).
