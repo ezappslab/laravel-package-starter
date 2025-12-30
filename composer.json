@@ -35,6 +35,13 @@
         "pestphp/pest-plugin-mutate": "^v4.0",
         "pestphp/pest-plugin-laravel": "^v4.0"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Infinity\\Example\\ExampleServiceProvider"
+            ]
+        }
+    },
     "scripts": {
         "post-autoload-dump": [
             "@clear",
