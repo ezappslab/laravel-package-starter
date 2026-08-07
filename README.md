@@ -4,15 +4,31 @@ This is a robust skeleton starter kit designed to simplify the creation of new L
 
 ## Getting Started
 
-To bootstrap your package development, you can use the following prompt snippet with your favorite AI assistant:
+To bootstrap your package, replace the placeholders and use this prompt with your preferred AI assistant:
 
 ```text
-Rename all example code in this Laravel package starter to match:
-Vendor: {{ vendor }}
-Package: {{ package-name }}
-Namespace: {{ Vendor\PackageName }}
+Customize this Laravel package starter using the following metadata:
 
-Remove placeholders and leave a clean, working package.
+Composer package: {{ vendor }}/{{ package-name }}
+PHP namespace: {{ Vendor\PackageName }}
+Package name: {{ package-name }}
+Service provider: {{ PackageName }}ServiceProvider
+
+Update every starter-specific identifier consistently, including:
+
+- Composer package metadata, PSR-4 autoloading, and Laravel provider discovery.
+- The service provider namespace, class name, package name, and install command.
+- Source and test references, filenames, configuration, documentation, and workbench
+  integration where applicable.
+
+Use kebab-case for Composer and package names, StudlyCase for PHP symbols, and the
+provided namespace exactly. Do not replace unrelated uses of words such as "example"
+(for example, example.com email addresses).
+
+Preserve the existing Laravel 12/13 compatibility and development tooling. Remove all
+starter placeholders and obsolete example identifiers, regenerate Composer autoloading,
+then run Composer validation, formatting, static analysis, and tests. Report the files
+changed and any checks that could not be completed.
 ```
 
 ## Features
